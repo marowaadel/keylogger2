@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Key logger</title>
+  <style>
+  body{
+     background-color: gainsboro;
+}
+.word{
+    background-color: gainsboro;
+    height: 60%;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.c2{
+    padding: 2px;
+    font-size: 30PX;
+    color:darkcyan;
+    text-align: center;
+}
+.c3{
+    padding: 2px;
+     font-size: 15PX;
+    color: darkslategrey;
+    margin: 0 10% 0 10%;
+}
+
+#demo{
+     margin: 1% 10% 0 10%;
+    height: 210px;
+    border-radius: 15px;
+}
+  </style>
+  </head>
+<body>
+<div id="body">
+        <!-- this div have images-->
+    <div class="img" id="demo">
+        
+             </div>
+        <!-- this div have paragraphs, defenations , class is word ,id is div1 and dt have class is c2 and id is dt1 and dd have class c3 and id dd1 -->
+              <div class="word" id="div1">
+    <dl>
+        <dt class="c2" id="dt1">What is a Keylogger?</dt>
+        <dd class="c3" id="dd1">A keylogger is also termed Keystroke Logger, developed to monitor and record the keystrokes that the user enters through the keyboard. Keyloggers are also available to monitor keystrokes from smartphones – iPhone and Android. A keystroke may be a password or username or even the most confidential banking information.
+The keyloggers are installed along with the regular functioning program and it does not appear to look dangerous.
+</dd>
+            </dl>
+            </div>
+         <!-- this div have paragraphs, defenations , class is word ,id is div2 and dt have class is c2 and id is dt2 and dd have class c3 and id dd2 -->
+            <div class="word" id="div2">
+             <dl>
+        <dt class="c2" id="dt2">What Does a Keylogger Trojan Do?</dt>
+        <dd class="c3" id="dd2">
+A keylogger monitors each keystroke of the user. The malware keeps track of the keystroke and saves the user’s information locally – later the hacker requires physical access to retriever the stored user information. It also works the other way where the hacker can gain instant access to the user data through the Internet.
+Some keyloggers are programmed to record/log the keystrokes only after a certain activity is initiated. For instance, the keylogger program would start recording only when the user opens the browser to access a specific website.</dd>
+             </dl>
+        </div>
+         <!-- this div have paragraphs, defenations , class is word ,id is div3 and dt have class is c2 and id is dt3 and dd have class c3 and id dd3 -->
+         <div class="word" id="div3">
+             <dl>
+        <dt class="c2" id="dt3">How Do Keyloggers Get on the user’s Computer?</dt>
+        <dd class="c3" id="dd3">When the user has an outdated antivirus, or when the antivirus is turned off or if the user has not got it installed, keylogger finds its way to reach the computer. Virus protection tools are to be kept up-to-date and if not done, they cannot defend or deny such keylogging activities.
+Another possible way is that the keyloggers find a way through .exe files. However, it is not possible to restrict or limit to deny .exe files just to avoid keyloggers as most of the important programs run through .exe files.</dd>
+        </dl>
+        </div>
+     <!-- this div have paragraphs, defenations , class is word ,id is div4 and dt have class is c2 and id is dt4 and dd have class c3 and id dd4-->
+         <div class="word" id="div4">
+             <dl>
+        <dt class="c2" id="dt4">Programs That Can Remove a Keylogger Virus:</dt>
+        <dd class="c3" id="dd4">There is a wide variety of protection software available both free and paid to fit your specific requirements. Ensure 
+            there is an updated Antivirus to drive away the keylogger.
+A centralized approach to protecting all the endpoints – servers, laptops, desktops, smartphones and other IoT devices like Comodo Endpoint Protection would help the users to fend against such keylogging activities. It delivers total protection for corporate networks when it is accessed through remote devices. It offers 7-layer protection with containment technology, Web URL Filtering, Firewall, Antivirus, Host Intrusion Prevention and Viruscope.
+The best part of Comodo Endpoint Protection is the containment technology that works on Artificial Intelligence, it moves the suspicious files to a virtual environment so it doesn’t interfere with the normal operations of the computer. This is also combined with a future-proof concept called viruscope that helps to analyze this. </dd>
+        </dl>
+        </div>
+        </div>
+    <script> 
+        function col1(){
+    document.getElementById("div1").style.backgroundColor= "beige";
+    document.getElementById("div1").style.height= "80%";
+    document.getElementById("dt1").style.color = "chocolate";
+    document.getElementById("dt1").style.fontSize = "40px";
+    document.getElementById("dt1").style.textAlign ="center";
+    document.getElementById("dd1").style.color = "darkred";
+    document.getElementById("dd1").style.fontSize = "25px";
+             
+        }
+        function col2(){
+    document.getElementById("div2").style.backgroundColor= "beige";
+    document.getElementById("div2").style.height= "80%";
+    document.getElementById("dt2").style.color = "chocolate";
+    document.getElementById("dt2").style.fontSize = "40px";
+    document.getElementById("dt2").style.textAlign ="center";
+    document.getElementById("dd2").style.color = "darkred";
+    document.getElementById("dd2").style.fontSize = "25px";
+             
+        }
+        function col3(){
+    document.getElementById("div3").style.backgroundColor= "beige";
+    document.getElementById("div3").style.height= "80%";  
+    document.getElementById("dt3").style.color = "chocolate";
+    document.getElementById("dt3").style.fontSize = "40px";
+    document.getElementById("dt3").style.textAlign ="center";
+    document.getElementById("dd3").style.color = "darkred";
+    document.getElementById("dd3").style.fontSize = "25px";
+             
+        }
+        function col4(){
+    document.getElementById("div4").style.backgroundColor= "beige";
+    document.getElementById("div4").style.height= "80%"; 
+    document.getElementById("dt4").style.color = "chocolate";
+    document.getElementById("dt4").style.fontSize = "40px";
+    document.getElementById("dt4").style.textAlign ="center";
+    document.getElementById("dd4").style.color = "darkred";
+    document.getElementById("dd4").style.fontSize = "25px";
+             
+}
+        document.getElementById("div1").addEventListener("mouseover",col1);
+        document.getElementById("div2").addEventListener("mouseover",col2);
+        document.getElementById("div3").addEventListener("mouseover",col3);
+        document.getElementById("div4").addEventListener("mouseover",col4);
+
+        function coll1(){
+    document.getElementById("div1").style.backgroundColor= "gainsboro";
+    document.getElementById("div1").style.height= "60%";        
+    document.getElementById("dt1").style.color = "darkcyan";
+    document.getElementById("dt1").style.fontSize = "30px";
+    document.getElementById("dt1").style.textAlign ="center";
+    document.getElementById("dd1").style.color = "darkslategrey";
+    document.getElementById("dd1").style.fontSize = "15px";
+            
+        }
+        function coll2(){
+    document.getElementById("div2").style.backgroundColor= "gainsboro";
+    document.getElementById("div2").style.height= "60%";
+    document.getElementById("dt2").style.color = "darkcyan";
+    document.getElementById("dt2").style.fontSize = "30px";
+    document.getElementById("dt2").style.textAlign ="center";
+    document.getElementById("dd2").style.color = "darkslategrey";
+    document.getElementById("dd2").style.fontSize = "15px";
+            
+        }
+        function coll3(){
+    document.getElementById("div3").style.backgroundColor= "gainsboro";
+    document.getElementById("div3").style.height= "60%";
+    document.getElementById("dt3").style.color = "darkcyan";
+    document.getElementById("dt3").style.fontSize = "30px";
+    document.getElementById("dt3").style.textAlign ="center";
+    document.getElementById("dd3").style.color = "darkslategrey";
+    document.getElementById("dd3").style.fontSize = "15px";
+            
+        }
+        function coll4(){
+    document.getElementById("div4").style.backgroundColor= "gainsboro";
+    document.getElementById("div4").style.height= "60%";
+    document.getElementById("dt4").style.color = "darkcyan";
+    document.getElementById("dt4").style.fontSize = "30px";
+    document.getElementById("dt4").style.textAlign ="center";
+    document.getElementById("dd4").style.color = "darkslategrey";
+    document.getElementById("dd4").style.fontSize = "15px";
+
+}
+        document.getElementById("div1").addEventListener("mouseout",coll1);
+        document.getElementById("div2").addEventListener("mouseout",coll2);
+        document.getElementById("div3").addEventListener("mouseout",coll3);
+        document.getElementById("div4").addEventListener("mouseout",coll4);
+    </script>
+    </body>
+</html>
